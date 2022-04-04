@@ -1,0 +1,2 @@
+def mySpider():
+    return None

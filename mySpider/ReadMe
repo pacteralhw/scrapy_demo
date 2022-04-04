@@ -1,0 +1,9 @@
+创建爬虫
+scrapy genspider itcast "itcast.cn"
+scrapy genspider baidu "baidu.cn"
+
+执行爬虫
+scrapy crawl itcast -o teachers.json
+scrapy crawl baidu -o news.json
+
+$ ssh-keygen -t rsa -C "13005442629@163.com"
